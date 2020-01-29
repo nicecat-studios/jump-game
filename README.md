@@ -1,3 +1,2 @@
-# Let-s-make-a-game
+# Jump Game
 Let's make a game!-course for SAMK.
-Updated readme.
