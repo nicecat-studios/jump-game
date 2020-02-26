@@ -15,6 +15,6 @@ public class ChangeScene : MonoBehaviour
     private IEnumerator ChangeSceneToGame()
     {
         yield return new WaitForSeconds(5);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
 }
