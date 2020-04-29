@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : Player
 {
@@ -53,7 +54,9 @@ public class PlayerController : Player
 		isGrounded = Physics2D.OverlapArea(feetPos.position, checkRadius.position, whatIsGround); //return true for overlap
 		moveInput = Input.GetAxis("Horizontal");
 
-		if (Input.GetKeyDown(KeyCode.Escape)) { Application.Quit(); } //temporary exit measure
+		if (Input.GetKeyDown(KeyCode.Escape)) {
+			SceneManager.LoadScene(0);
+		}
 
 
 		if(_isGrounded && Input.GetAxis("Horizontal") != -1 && Input.GetAxis("Horizontal") != 1) { Player.rbody.velocity = new Vector2(0, Player.rbody.velocity.y); }
