@@ -2,73 +2,98 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Player
 {
-    private Rigidbody2D rbody;
-    private float moveInput;
-    private float movementSpeed;
-    private float jumpForce;
+	private float moveInput;
 
-    public bool isGrounded;
-    public Transform feetPos;
-    public LayerMask whatIsGround;
-    public float checkRadius;
-    
-    private float charger;
-    private bool discharge;
-    private bool isCharging;
+	private SpriteRenderer spriteRenderer;
+	public int maxCharge;
+	//public RaycastHit2D hit;
+	//public Ray ray;
 
-    void Start()
+	public float movementSpeed;
+	public float jumpForce;
+
+	private bool _isGrounded;
+	public bool isGrounded { get { return _isGrounded; } set { _isGrounded = value; } }
+
+	public Transform feetPos;
+	public LayerMask whatIsGround;
+	public Transform checkRadius;
+
+	private double _charger;
+	public double charger
+	{
+		get { return _charger; }
+		set { _charger = value; }
+	}
+
+	public float chargeMultiplier;
+	public bool isCharging;
+
+	void Start()
+	{
+		isCharging = false;
+		Player.movementSpeed = movementSpeed;
+		Player.jumpForce = jumpForce;
+		spriteRenderer = GetComponent<SpriteRenderer>();
+	}
+
+	void FixedUpdate()
+	{
+		Player.rbody.velocity += new Vector2(0, -0.75f);
+		//ray.origin = feetPos.position;
+		//ray.direction = Vector2.down;
+		//RaycastHit2D hit = Physics2D.Raycast(origin: transform.position, direction: -Vector2.up, layerMask: whatIsGround, distance: 100);
+	}
+
+	void Update()
+	{
+		//isGrounded = hit.collider == null ? true : false;
+		isGrounded = Physics2D.OverlapArea(feetPos.position, checkRadius.position, whatIsGround); //return true for overlap
+		moveInput = Input.GetAxis("Horizontal");
+
+		if (Input.GetKeyDown(KeyCode.Escape)) { Application.Quit(); } //temporary exit measure
+
+
+		if(_isGrounded && Input.GetAxis("Horizontal") != -1 && Input.GetAxis("Horizontal") != 1) { Player.rbody.velocity = new Vector2(0, Player.rbody.velocity.y); }
+
+		if (Input.GetAxis("Horizontal") > 0) { spriteRenderer.flipX = false; }
+		if (Input.GetAxis("Horizontal") < 0) { spriteRenderer.flipX = true; }
+
+		if (!isCharging && _isGrounded)
+		{
+			rbody.velocity = new Vector2(moveInput * movementSpeed, rbody.velocity.y);
+		}
+
+		if (_isGrounded && Input.GetButton("Jump") && _charger < maxCharge)
+		{
+			if (_charger > maxCharge) { _charger = maxCharge; }
+			else { _charger += Time.deltaTime * chargeMultiplier; }
+			rbody.velocity = new Vector2(0, rbody.velocity.y);
+			isCharging = true;
+		}
+
+		if (isCharging && !Input.GetButton("Jump"))
+		{
+			Jump(moveInput, (float)System.Math.Round(_charger, 1));
+		}
+	}
+
+	void Jump(float direction, float jumpCharge)
+	{
+		Debug.Log(jumpCharge);
+		Player.rbody.velocity = new Vector2((8 - (float)charger) * direction, jumpForce * jumpCharge);
+		_charger = 0f;
+		isCharging = false;
+	}
+
+	void OnCollisionEnter(Collision collision)
     {
-        rbody = GetComponent<Rigidbody2D>();
-        isCharging = false;
-    }
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.Space))
+		if (!_isGrounded && collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
         {
-            charger += Time.deltaTime;
-            isCharging = true;
-        }
-
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            discharge = true;
-            isCharging = false;
+			rbody.velocity = new Vector2(rbody.velocity.x * -1, rbody.velocity.y);
         }
     }
-    void FixedUpdate()
-    {
-        isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
-        if (isGrounded)
-        {
-            moveInput = Input.GetAxis("Horizontal");
-        }
-        rbody.velocity = new Vector2(moveInput * movementSpeed, rbody.velocity.y);
 
-        // Stops movement when space is pressed
-        if (isCharging && isGrounded)
-        {
-            movementSpeed = 0;
-        }
-        else
-        {
-            movementSpeed = 8;
-        }
-
-        if (discharge && isGrounded)
-        {
-            // Charges the jump
-            jumpForce = 10 * charger;
-            if (jumpForce > 10)
-            {
-                jumpForce = 10;
-            }
-            rbody.velocity = new Vector2(rbody.velocity.x, jumpForce);
-
-            // Reset charge and set discharge to false
-            charger = 0f;
-            discharge = false;
-        }
-    }
 }
