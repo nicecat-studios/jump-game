@@ -63,8 +63,11 @@ public class Menu_Buttons : MonoBehaviour
     }
     public void StartGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
-
-   
+    
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
