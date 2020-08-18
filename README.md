@@ -3,6 +3,7 @@
 </p>
 
 <h1 align="center">Jump Game</h1>
+<p align="center"><a href="https://unity3d.com/unity/whats-new/2019.2.17">Unity 2019.2.17</a> | <a href="https://nicecat.wgi.fi/jump-game">Download Game</a> | <a href="https://nicecat.wgi.fi/jump-game">Windows</a></p>
 <p align="center">Let's make a game!-course for SAMK.</p>
 
 ---
