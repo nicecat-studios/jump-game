@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -220,11 +221,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &107018742
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -239,6 +243,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -271,8 +276,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 0.9495926, y: 0.35792226, z: -0.0050049997}
-    m_Extent: {x: 0.9495926, y: 0.35792226, z: 0.0050049997}
+    m_Center: {x: 0.9495926, y: 0.35792226, z: -0.0001}
+    m_Extent: {x: 0.9495926, y: 0.35792226, z: 0.0001}
 --- !u!4 &107018743
 Transform:
   m_ObjectHideFlags: 0
@@ -363,11 +368,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 0
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &114484488
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -382,6 +390,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -413,8 +422,8 @@ SpriteShapeRenderer:
   m_Sprites:
   - {fileID: -1093728420042376791, guid: d12930f202cb61c408ebc66ab65176d1, type: 3}
   m_LocalAABB:
-    m_Center: {x: 3.9159293, y: -0.96471, z: -0.00501}
-    m_Extent: {x: 3.9159293, y: 0.96471, z: 0.00501}
+    m_Center: {x: 3.9159293, y: -0.96471, z: -0.00014999999}
+    m_Extent: {x: 3.9159293, y: 0.96471, z: 0.00014999999}
 --- !u!4 &114484489
 Transform:
   m_ObjectHideFlags: 0
@@ -543,11 +552,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &132574803
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -562,6 +574,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -594,8 +607,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 0.36076295, y: -0.087019384, z: -0.0050049997}
-    m_Extent: {x: 0.36076295, y: 0.37379038, z: 0.0050049997}
+    m_Center: {x: 0.36076295, y: -0.087019384, z: -0.0001}
+    m_Extent: {x: 0.36076295, y: 0.37379038, z: 0.0001}
 --- !u!1 &178904762
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,11 +723,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &178904766
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -729,6 +745,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -902,11 +919,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &209856696
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -921,6 +941,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1146,11 +1167,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 0
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &220918791
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -1165,6 +1189,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1196,8 +1221,8 @@ SpriteShapeRenderer:
   m_Sprites:
   - {fileID: -1093728420042376791, guid: d12930f202cb61c408ebc66ab65176d1, type: 3}
   m_LocalAABB:
-    m_Center: {x: 2.76178, y: -0.9396212, z: -0.0050749998}
-    m_Extent: {x: 5.3871374, y: 0.9396212, z: 0.0050749998}
+    m_Center: {x: 2.76178, y: -0.9396212, z: -0.0008}
+    m_Extent: {x: 5.3871374, y: 0.9396212, z: 0.0008}
 --- !u!4 &220918792
 Transform:
   m_ObjectHideFlags: 0
@@ -1363,11 +1388,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &236539315
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -1382,6 +1410,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1556,11 +1585,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &257267237
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -1575,6 +1607,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1607,8 +1640,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: -2.6264825, y: 1.7028186, z: -0.005015}
-    m_Extent: {x: 4.9318266, y: 1.7028186, z: 0.005015}
+    m_Center: {x: -2.6264825, y: 1.7028186, z: -0.0002}
+    m_Extent: {x: 4.9318266, y: 1.7028186, z: 0.0002}
 --- !u!4 &257267238
 Transform:
   m_ObjectHideFlags: 0
@@ -1763,11 +1796,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &311980377
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -1782,6 +1818,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1928,11 +1965,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &317709773
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -1947,6 +1987,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1979,8 +2020,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 0.36076295, y: -0.087019384, z: -0.0050049997}
-    m_Extent: {x: 0.36076295, y: 0.37379038, z: 0.0050049997}
+    m_Center: {x: 0.36076295, y: -0.087019384, z: -0.0001}
+    m_Extent: {x: 0.36076295, y: 0.37379038, z: 0.0001}
 --- !u!1 &336545172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,11 +2150,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &336545176
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -2128,6 +2172,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2160,8 +2205,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: -3.8195715, y: 6.188224, z: -0.0050049997}
-    m_Extent: {x: 3.8195715, y: 8.290386, z: 0.0050049997}
+    m_Center: {x: -3.8195715, y: 6.188224, z: -0.0001}
+    m_Extent: {x: 3.8195715, y: 8.290386, z: 0.0001}
 --- !u!4 &336545177
 Transform:
   m_ObjectHideFlags: 0
@@ -2352,11 +2397,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &432283723
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -2371,6 +2419,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2403,8 +2452,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 0.87414265, y: 0.36815357, z: -0.0050049997}
-    m_Extent: {x: 1.0250427, y: 0.36815357, z: 0.0050049997}
+    m_Center: {x: 0.87414265, y: 0.36815357, z: -0.0001}
+    m_Extent: {x: 1.0250427, y: 0.36815357, z: 0.0001}
 --- !u!4 &432283724
 Transform:
   m_ObjectHideFlags: 0
@@ -2575,11 +2624,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &456666653
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -2594,6 +2646,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2626,8 +2679,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: -9.6885805, y: -0.13195181, z: -0.0050049997}
-    m_Extent: {x: 9.6885805, y: 2.2384534, z: 0.0050049997}
+    m_Center: {x: -9.6885805, y: -0.13195181, z: -0.0001}
+    m_Extent: {x: 9.6885805, y: 2.2384534, z: 0.0001}
 --- !u!4 &456666654
 Transform:
   m_ObjectHideFlags: 0
@@ -2768,11 +2821,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &560478967
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -2787,6 +2843,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2819,8 +2876,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 1.188769, y: -0.087019354, z: -0.0050049997}
-    m_Extent: {x: 1.188769, y: 0.37378994, z: 0.0050049997}
+    m_Center: {x: 1.188769, y: -0.087019354, z: -0.0001}
+    m_Extent: {x: 1.188769, y: 0.37378994, z: 0.0001}
 --- !u!4 &560478968
 Transform:
   m_ObjectHideFlags: 0
@@ -2989,11 +3046,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &662102505
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -3008,6 +3068,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3040,8 +3101,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: -3.514988, y: 1.1399885, z: -0.005025}
-    m_Extent: {x: 4.2219925, y: 1.672959, z: 0.005025}
+    m_Center: {x: -3.514988, y: 1.1399885, z: -0.00029999999}
+    m_Extent: {x: 4.2219925, y: 1.672959, z: 0.00029999999}
 --- !u!1 &666987202
 GameObject:
   m_ObjectHideFlags: 0
@@ -3133,11 +3194,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &666987205
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -3152,6 +3216,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3336,11 +3401,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &706573743
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -3355,6 +3423,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3439,6 +3508,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3524,11 +3594,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 0
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &775429254
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -3543,6 +3616,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3574,8 +3648,8 @@ SpriteShapeRenderer:
   m_Sprites:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   m_LocalAABB:
-    m_Center: {x: 3.2904222, y: 1.1283467, z: -0.005}
-    m_Extent: {x: 3.2904222, y: 1.1283467, z: 0.005}
+    m_Center: {x: 3.2904222, y: 1.1283467, z: -0.00005}
+    m_Extent: {x: 3.2904222, y: 1.1283467, z: 0.00005}
 --- !u!4 &775429255
 Transform:
   m_ObjectHideFlags: 0
@@ -3706,11 +3780,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &789462948
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -3725,6 +3802,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3847,6 +3925,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4235,11 +4314,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &850283050
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -4254,6 +4336,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4286,8 +4369,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 2.2234955, y: 0.99158, z: -0.00501}
-    m_Extent: {x: 2.5624819, y: 3.7321234, z: 0.00501}
+    m_Center: {x: 2.2234955, y: 0.99158, z: -0.00014999999}
+    m_Extent: {x: 2.5624819, y: 3.7321234, z: 0.00014999999}
 --- !u!61 &850283051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4438,11 +4521,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &879923508
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -4457,6 +4543,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4589,11 +4676,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &887558515
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -4608,6 +4698,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4640,8 +4731,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 0.40755987, y: 0.3721163, z: -0.0050049997}
-    m_Extent: {x: 2.4372678, y: 0.3721163, z: 0.0050049997}
+    m_Center: {x: 0.40755987, y: 0.3721163, z: -0.0001}
+    m_Extent: {x: 2.4372678, y: 0.3721163, z: 0.0001}
 --- !u!4 &887558516
 Transform:
   m_ObjectHideFlags: 0
@@ -4880,11 +4971,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &908592609
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -4899,6 +4993,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4931,8 +5026,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 0.65458703, y: 2.6977816, z: -0.00506}
-    m_Extent: {x: 0.65458703, y: 3.1203117, z: 0.00506}
+    m_Center: {x: 0.65458703, y: 2.6977816, z: -0.00065}
+    m_Extent: {x: 0.65458703, y: 3.1203117, z: 0.00065}
 --- !u!1 &926309963
 GameObject:
   m_ObjectHideFlags: 0
@@ -4986,6 +5081,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5189,11 +5285,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &943494613
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -5208,6 +5307,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5321,11 +5421,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 0
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &943806492
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -5340,6 +5443,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5371,8 +5475,8 @@ SpriteShapeRenderer:
   m_Sprites:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   m_LocalAABB:
-    m_Center: {x: -0.11568896, y: -0.77805245, z: -0.0050049997}
-    m_Extent: {x: 0.11568896, y: 1.3986014, z: 0.0050049997}
+    m_Center: {x: -0.11568896, y: -0.77805245, z: -0.0001}
+    m_Extent: {x: 0.11568896, y: 1.3986014, z: 0.0001}
 --- !u!1 &974865135
 GameObject:
   m_ObjectHideFlags: 0
@@ -5487,11 +5591,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &974865139
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -5506,6 +5613,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5682,11 +5790,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1031558123
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -5701,6 +5812,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5785,6 +5897,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5924,11 +6037,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1108460739
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -5943,6 +6059,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6075,11 +6192,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1134836508
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -6094,6 +6214,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6126,8 +6247,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 1.188769, y: -0.087019354, z: -0.0050049997}
-    m_Extent: {x: 1.188769, y: 0.37378994, z: 0.0050049997}
+    m_Center: {x: 1.188769, y: -0.087019354, z: -0.0001}
+    m_Extent: {x: 1.188769, y: 0.37378994, z: 0.0001}
 --- !u!4 &1134836509
 Transform:
   m_ObjectHideFlags: 0
@@ -6242,11 +6363,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1184440239
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -6261,6 +6385,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6293,8 +6418,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 0.9495926, y: 0.3632815, z: -0.0050049997}
-    m_Extent: {x: 0.9495926, y: 0.3632815, z: 0.0050049997}
+    m_Center: {x: 0.9495926, y: 0.3632815, z: -0.0001}
+    m_Extent: {x: 0.9495926, y: 0.3632815, z: 0.0001}
 --- !u!4 &1184440240
 Transform:
   m_ObjectHideFlags: 0
@@ -6572,11 +6697,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 0
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 0
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1221595387
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -6591,6 +6719,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6623,8 +6752,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 1.9800777, y: -1.2123384, z: -0.005025}
-    m_Extent: {x: 11.090158, y: 4.531311, z: 0.005025}
+    m_Center: {x: 1.9800777, y: -1.2123384, z: -0.00029999999}
+    m_Extent: {x: 11.090158, y: 4.531311, z: 0.00029999999}
 --- !u!4 &1221595388
 Transform:
   m_ObjectHideFlags: 0
@@ -6811,11 +6940,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 0
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1229650445
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -6830,6 +6962,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6861,8 +6994,8 @@ SpriteShapeRenderer:
   m_Sprites:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   m_LocalAABB:
-    m_Center: {x: 3.1003497, y: 1.1338537, z: -0.00502}
-    m_Extent: {x: 3.5505192, y: 1.1338537, z: 0.00502}
+    m_Center: {x: 3.1003497, y: 1.1338537, z: -0.00024999998}
+    m_Extent: {x: 3.5505192, y: 1.1338537, z: 0.00024999998}
 --- !u!4 &1229650446
 Transform:
   m_ObjectHideFlags: 0
@@ -6977,11 +7110,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1240744438
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -6996,6 +7132,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7028,8 +7165,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: -0.11073351, y: 0.07792769, z: -0.0050049997}
-    m_Extent: {x: 0.3020115, y: 0.27568972, z: 0.0050049997}
+    m_Center: {x: -0.11073351, y: 0.07792769, z: -0.0001}
+    m_Extent: {x: 0.3020115, y: 0.27568972, z: 0.0001}
 --- !u!4 &1240744439
 Transform:
   m_ObjectHideFlags: 0
@@ -7144,11 +7281,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1261804733
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -7163,6 +7303,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7195,8 +7336,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 0.10592604, y: 0.12105435, z: -0.0050049997}
-    m_Extent: {x: 1.1427159, y: 0.29612488, z: 0.0050049997}
+    m_Center: {x: 0.10592604, y: 0.12105435, z: -0.0001}
+    m_Extent: {x: 1.1427159, y: 0.29612488, z: 0.0001}
 --- !u!4 &1261804734
 Transform:
   m_ObjectHideFlags: 0
@@ -7325,11 +7466,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1265248251
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -7344,6 +7488,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7488,11 +7633,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1280386451
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -7507,6 +7655,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7539,8 +7688,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: -1.011982, y: 12.607529, z: -0.00501}
-    m_Extent: {x: 1.011982, y: 14.607529, z: 0.00501}
+    m_Center: {x: -1.011982, y: 12.607529, z: -0.00014999999}
+    m_Extent: {x: 1.011982, y: 14.607529, z: 0.00014999999}
 --- !u!4 &1280386452
 Transform:
   m_ObjectHideFlags: 0
@@ -7695,11 +7844,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1432266907
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -7714,6 +7866,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7999,11 +8152,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1539675121
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -8018,6 +8174,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8050,8 +8207,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: -11.385231, y: 15.024061, z: -0.0050049997}
-    m_Extent: {x: 11.385231, y: 16.321117, z: 0.0050049997}
+    m_Center: {x: -11.385231, y: 15.024061, z: -0.0001}
+    m_Extent: {x: 11.385231, y: 16.321117, z: 0.0001}
 --- !u!4 &1539675122
 Transform:
   m_ObjectHideFlags: 0
@@ -8180,11 +8337,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1543213263
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -8199,6 +8359,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8231,8 +8392,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 0.36076298, y: -0.02612248, z: -0.0050049997}
-    m_Extent: {x: 0.36076298, y: 0.3128935, z: 0.0050049997}
+    m_Center: {x: 0.36076298, y: -0.02612248, z: -0.0001}
+    m_Extent: {x: 0.36076298, y: 0.3128935, z: 0.0001}
 --- !u!1 &1563065258
 GameObject:
   m_ObjectHideFlags: 0
@@ -8258,8 +8419,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563065258}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 2
+  m_Shape: 0
   m_Color: {r: 1, g: 0.7898198, b: 0.30588233, a: 1}
   m_Intensity: 25.26
   m_Range: 9.88
@@ -8608,11 +8770,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1629957196
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -8627,6 +8792,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8659,8 +8825,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 0.809049, y: 0.37211728, z: -0.0050049997}
-    m_Extent: {x: 1.0901362, y: 0.37211728, z: 0.0050049997}
+    m_Center: {x: 0.809049, y: 0.37211728, z: -0.0001}
+    m_Extent: {x: 1.0901362, y: 0.37211728, z: 0.0001}
 --- !u!4 &1629957197
 Transform:
   m_ObjectHideFlags: 0
@@ -8816,11 +8982,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1665520232
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -8835,6 +9004,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8919,6 +9089,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9151,11 +9322,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1757382816
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -9170,6 +9344,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9202,8 +9377,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: -9.6885805, y: 1.0030892, z: -0.0050049997}
-    m_Extent: {x: 9.6885805, y: 3.3734944, z: 0.0050049997}
+    m_Center: {x: -9.6885805, y: 1.0030892, z: -0.0001}
+    m_Extent: {x: 9.6885805, y: 3.3734944, z: 0.0001}
 --- !u!1 &1809831954
 GameObject:
   m_ObjectHideFlags: 0
@@ -9304,11 +9479,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1809831957
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -9323,6 +9501,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9355,8 +9534,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 1.188769, y: -0.087019354, z: -0.0050049997}
-    m_Extent: {x: 1.188769, y: 0.37378994, z: 0.0050049997}
+    m_Center: {x: 1.188769, y: -0.087019354, z: -0.0001}
+    m_Extent: {x: 1.188769, y: 0.37378994, z: 0.0001}
 --- !u!4 &1809831958
 Transform:
   m_ObjectHideFlags: 0
@@ -9519,11 +9698,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 0
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1873267250
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -9538,6 +9720,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9569,8 +9752,8 @@ SpriteShapeRenderer:
   m_Sprites:
   - {fileID: -1093728420042376791, guid: d12930f202cb61c408ebc66ab65176d1, type: 3}
   m_LocalAABB:
-    m_Center: {x: 3.9306452, y: -0.97526735, z: -0.00505}
-    m_Extent: {x: 3.9306452, y: 0.97526735, z: 0.00505}
+    m_Center: {x: 3.9306452, y: -0.97526735, z: -0.00055}
+    m_Extent: {x: 3.9306452, y: 0.97526735, z: 0.00055}
 --- !u!4 &1873267251
 Transform:
   m_ObjectHideFlags: 0
@@ -9817,11 +10000,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1916778132
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -9836,6 +10022,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10023,11 +10210,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 0
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1917793526
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -10042,6 +10232,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10073,8 +10264,8 @@ SpriteShapeRenderer:
   m_Sprites:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   m_LocalAABB:
-    m_Center: {x: 1.23702, y: 1.1338537, z: -0.005025}
-    m_Extent: {x: 5.413849, y: 1.1338537, z: 0.005025}
+    m_Center: {x: 1.23702, y: 1.1338537, z: -0.00029999999}
+    m_Extent: {x: 5.413849, y: 1.1338537, z: 0.00029999999}
 --- !u!4 &1917793527
 Transform:
   m_ObjectHideFlags: 0
@@ -10141,7 +10332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -10186,6 +10377,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10348,11 +10540,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1929855194
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -10367,6 +10562,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10513,11 +10709,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1956398830
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -10532,6 +10731,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10707,11 +10907,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &1988221129
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -10726,6 +10929,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10936,11 +11140,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &2033151050
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -10955,6 +11162,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11369,11 +11577,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &2110585265
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -11388,6 +11599,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11543,11 +11755,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &2121514391
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -11562,6 +11777,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11594,8 +11810,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 619b238f32caf8c4f8ccffd12dacdf07, type: 3}
   - {fileID: 0}
   m_LocalAABB:
-    m_Center: {x: 1.0654614, y: -0.12003893, z: -0.0050049997}
-    m_Extent: {x: 1.0654614, y: 0.28759778, z: 0.0050049997}
+    m_Center: {x: 1.0654614, y: -0.12003893, z: -0.0001}
+    m_Extent: {x: 1.0654614, y: 0.28759778, z: 0.0001}
 --- !u!4 &2121514392
 Transform:
   m_ObjectHideFlags: 0
@@ -11724,11 +11940,14 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 1
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+  m_EnableTangents: 0
+  m_GeometryCached: 0
 --- !u!1971053207 &2124507555
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
@@ -11743,6 +11962,7 @@ SpriteShapeRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
