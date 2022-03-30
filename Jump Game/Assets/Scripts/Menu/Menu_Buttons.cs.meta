@@ -3,7 +3,11 @@ guid: 1da90b8136ceae74981c132e9525e786
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - MainMenuPanel: {fileID: 8730269676052092079, guid: 95c270678e350c64e9b476d7f28a859d,
+      type: 3}
+  - SettingsMenuPanel: {fileID: 7135312091190565530, guid: 09acfb5a6df9ae1458aea9c3923a799b,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
