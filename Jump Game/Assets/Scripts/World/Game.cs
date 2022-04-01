@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DebugRespawn : MonoBehaviour
+public class Game : MonoBehaviour
 {
     public Button button;
     private GameObject player;
@@ -23,8 +23,8 @@ public class DebugRespawn : MonoBehaviour
     void Respawn()
     {
         rbody.velocity = new Vector3(0, 0, 0);
-        player.transform.position = new Vector3(-7, -2, -0.16f);
-        camera.transform.position = new Vector3(0.9002959f, 2.056212f, -32.28906f);
+        player.transform.position = new Vector3(-60.5f, 9.3f, -0.16f);
+        camera.transform.position = new Vector3(-51.7597f, 14.07621f, -32.28906f);
         //CameraController.storedPosition = 0f;
     }
 }

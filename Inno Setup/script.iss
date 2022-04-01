@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Jump Game"
-#define MyAppVersion "0.1"
+#define MyAppVersion "0.3"
 #define MyAppPublisher "NiceCat Studios"
 #define MyAppURL "https://nicecat.wgi.fi"
 #define MyAppExeName "Jump Game.exe"
