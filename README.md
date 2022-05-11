@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Jump Game</h1>
-<p align="center"><a href="https://unity3d.com/unity/whats-new/2019.4.37">Unity 2019.4.37</a> | <a href="https://nicecat.wgi.fi/jump-game">Download Game</a> | <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a></p>
+<p align="center"><a href="https://unity3d.com/unity/whats-new/2019.4.38">Unity 2019.4.38</a> | <a href="https://nicecat.wgi.fi/jump-game">Download Game</a> | <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a></p>
 <p align="center">Let's make a game!-course for SAMK.</p>
 
 ---
