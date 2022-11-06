@@ -663,7 +663,7 @@ TextureImporter:
       213: 3727152739151723913
     second: hardland10
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -683,6 +683,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -692,8 +694,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -714,9 +716,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -732,6 +739,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3065,6 +3096,117 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      run9: -2225337753171017087
+      idle21: -829856859153242411
+      jump_charge15: -3973982837760901240
+      run12: -1137678363302400272
+      jump_charge1: -6367302061358365307
+      idle8: 4859834048017358284
+      hardland14: -1792985804710985218
+      run3: -3392511561211885790
+      jump11: -7672021685992198234
+      jump_charge10: 4407125077710707988
+      jump7: -1407199840919242200
+      idle16: 7348978813017258394
+      idle1: -4875754636465202623
+      hardland15: -3710917035371835573
+      run8: 2934849124142698985
+      idle2: -7107172906470301330
+      run2: -2054716808199259710
+      hardland7: 415921098020737422
+      hardland6: -4743209633414359706
+      idle22: 5913277333827820792
+      run14: -1526598060093753372
+      hardland20: 428165586383024837
+      jump14: -4878402894775169803
+      jump_charge13: -8232038542299713647
+      jump_charge7: 5217668359800558158
+      idle18: -2064041543455461251
+      jump_charge12: -3893362472689462543
+      hardland1: 558651059181249777
+      run13: -8846401487119650628
+      jump_charge19: 7194465700557460690
+      jump16: 1574359967633516202
+      run5: 5046622260925856720
+      jump9: -7781682432611105077
+      jump_charge21: 7134126449708230338
+      idle6: -4484448115341458377
+      jump_charge3: -1631952831868314716
+      jump18: 4448488550856721054
+      hardland16: -388841668569274318
+      run7: -6036548002309615993
+      idle17: -4676275310385517549
+      hardland4: -1558465697978039222
+      jump_charge14: -1680468944484096594
+      jump4: -4059033993527320608
+      hardland13: -3209586721547761095
+      jump15: -2548964897146982169
+      jump_charge4: -4051713167622314649
+      run15: 3955347940717355426
+      jump13: -8639743321695154865
+      idle5: -2188984844611398186
+      jump22: -8705666895315548564
+      run1: -3109758266467645285
+      jump2: -2775254642341723503
+      jump12: 4132615580504735951
+      jump_charge2: -7556544632167003343
+      jump20: 1651610239694871467
+      hardland5: -6309514953070603395
+      idle7: 1570521896024466347
+      run19: 3398569441960942229
+      hardland9: 1359592818341714732
+      jump_charge8: -1484627546038221783
+      jump6: -1560452398328697000
+      jump_charge17: -2139008561802705604
+      hardland2: -7486664940351975867
+      hardland23: 1929842348252054108
+      jump1: -4572157266075969192
+      jump_charge18: 5024696974588001931
+      run16: 4787364794835522696
+      jump_charge20: 4745311664045314507
+      idle19: 8562130097325780516
+      jump21: -582308938874150289
+      idle10: -6054541065124143453
+      hardland3: 2218490972588531531
+      hardland18: 5887618345117774486
+      run11: 3972995285232232498
+      jump5: -7245956838964734647
+      hardland21: 864734797291782974
+      jump_charge16: -4104577327544255586
+      idle14: -219769378567701286
+      run18: -2277895527778550479
+      run21: -7960218240252198378
+      hardland12: 5444642648116586602
+      jump_charge9: -3414012039371936416
+      idle13: -5617828149325279669
+      jump_charge11: -2423323015706663206
+      run10: 2499456626172324289
+      jump8: -3823661213031510900
+      idle12: -1909313060810557305
+      hardland19: -9079233136405067815
+      run20: 6871935309468334205
+      jump_charge6: 1881782463716287476
+      run4: 4128941624623785079
+      idle9: -8608921344580492913
+      hardland17: -7721685838687906692
+      jump10: 5047393574061227655
+      idle20: -2331531718734322513
+      run17: 1730682210532443027
+      jump19: -6027763740008814114
+      idle3: 6103586979942586457
+      hardland10: 3727152739151723913
+      idle4: -2882593077361657767
+      jump_charge5: 4622662407762375271
+      run6: 3055445036958817877
+      idle11: -4219017684672185812
+      hardland11: -9197051372706716169
+      run22: 6635307992007921965
+      hardland8: -8137449569375297382
+      jump3: 1096309612742741767
+      idle15: 1752407436320682438
+      hardland22: 3375836076841311827
+      jump17: 6895035077966590871
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
