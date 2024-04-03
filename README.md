@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Jump Game</h1>
-<p align="center"><a href="https://unity.com/releases/editor/whats-new/2022.3.20">Unity 2022.3.20</a> | <a href="https://nicecat.wgi.fi/jump-game">Download Game</a> | <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a></p>
+<p align="center"><a href="https://unity.com/releases/editor/whats-new/2022.3.22">Unity 2022.3.22</a> | <a href="https://nicecat.wgi.fi/jump-game">Download Game</a> | <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a></p>
 <p align="center">This game was originally created as school project in Let's make a game! course at <a href="https://www.samk.fi/en/">Satakunta University of Applied Sciences</a>.</p>
 
 ---
